@@ -1,0 +1,46 @@
+# Ignore Django specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Ignore environment variables file
+.env
+
+# Ignore credentials file
+credentials.json
+
+# Ignore IDE files
+.vscode/
+*.idea/
+
+# Ignore dependencies
+venv/
+env/
+*.env
+
+# Ignore compiled files
+*.pyc
+
+# Ignore local settings file
+local_settings.py
+
+# Ignore any compiled Python files
+*.pyc
+
+# Ignore static files
+/staticfiles/
+
+# Ignore migration files
+/migrations/
+
+# Ignore test database
+/test_db.sqlite3
+
+# Ignore any other local settings or secrets
+*.secret
+
+# Ignore any backups or temporary files
+*~
